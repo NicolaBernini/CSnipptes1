@@ -5,13 +5,17 @@ The Memory Management C API
 
 # Memory Management API Semantic 
 
-In C, the Memory Management Semantic is type agnostic
+The Memory Management API are related to dynamic memory management: allocation, copy, ... 
+
+The Memory Management Semantic is type agnostic
 - Comments
   - Elements are always treated as a sequence of bytes 
 - Pro 
   - Maximum generality 
 - Con 
   - No compile-time checks 
+  - The compiler can't automatically infer the size for the allocation 
+    - It means the programmer is fully responsibilized in defining the size 
 
 
 
