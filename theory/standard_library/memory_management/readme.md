@@ -1,11 +1,16 @@
 
 # Overview 
 
-The Memory Allocation C API 
+The Memory Management C API 
 
-# Memory Allocation Semantic 
+# Memory Management API Semantic 
 
-In C, the Memory Allocation Semantic is type agnostic 
+In C, the Memory Management Semantic is type agnostic 
+- Elements are always treated as a sequence of bytes 
+
+
+## Memory Allocation 
+
 - What the C StdLib provides is an API to perform the allocation of a Sequence of Bytes 
 - It is programmer's responsibility 
   - 1) to specify the right amount of bytes 
